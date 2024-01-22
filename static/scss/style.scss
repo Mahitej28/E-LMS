@@ -387,19 +387,19 @@ body {
         display: flex;
         align-items: center;
         padding: 0.8rem 1rem;
-        color: #666;
-        border-radius: 0 2em 2em 0;
+        color: #ffffff;
+        border-radius: 0;
         transition: 0.25s;
 
         &:hover {
-          color: #007bff;
-          background: rgba(0, 111, 255, 0.1);
+          color: #ebb945;
+          background: rgba(213, 202, 147, 0.1);
         }
       }
       &.active a {
         // color: #007bff;
-        background: var(--bs-primary);
-        color: #fff;
+        //background: #e7bb57;
+        color: #ebb945;
       }
     }
   }
